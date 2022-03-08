@@ -13,11 +13,21 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&display=swap" rel="stylesheet">
         
+        <!-- I am so stylish -->
         <style>
         h2 {font-family: 'Dancing Script', cursive;
         font-family: 'Indie Flower', cursive;}
         </style>
-        
+
+        <!-- I am so de-scriptive -->
+        <script>
+        document.addEventListener('DOMContentLoaded', e => {
+        console.log(e);
+        let el = document.querySelector("#world");
+        el.style.color='#'+Math.floor(Math.random()*16777215).toString(16);	
+        });       
+        </script>
+
     </head>
     <body>
         This is great!
@@ -27,12 +37,16 @@
         <h2>This is a special font. I am very fond of it</h2>
         <hr/>
         how low can you go?
-        comment
+        
+        <div id="world">This will change color upon refreshing!</div>
+
         <br/>
         hii
         special characters Ä, ü, ß
         <h1>great title</h1>
         <p>text text</p>
+        <h3>A nice picture of a cat!</h3>
+        <br/>
         <img src="king cat.jpg"/>
         <br/>
         <a href="https://google.com">Google</a>
